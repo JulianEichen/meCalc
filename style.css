@@ -1,3 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap:8px;
+}
 
+#display{
+    background-color: lightgray;
+    border-color: black;
+    border-width: 8px;
+    width: 280px;
+    height: 64px;
+}
 
+#keyboard{
+    display:flex;
+    flex-direction:row;
+    gap:8px;
+}
+
+#keyboard_left{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+#buttons_3{
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+#buttons_2{
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.number_button{
+    background-color:brown;
+    width: 64px;
+    height: 64px;
+}
+
+.special_button{
+    background-color: blueviolet;
+    width: 64px;
+    height: 64px;
+}
+
+.operator_button{
+    background-color: blue;
+    width: 64px;
+    height: 64px;
+}

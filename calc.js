@@ -127,7 +127,7 @@ function updateDisplay(input) {
 
 function show(content){
     var text = content.toString();
-    if (text.length >= calculator.max_in_length || text == 'NaN'){
+    if (text.length >= calculator.max_in_length+1 || text == 'NaN'){
         text = 'NaN'
     }
     calculator.disp.textContent = text;
