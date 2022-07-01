@@ -18,8 +18,13 @@ body {
     border-color: black;
     border-width: 2px;
     border-style: solid;
-    width: 278px;
+    width: 276px;
     height: 62px;
+
+    text-align: right;
+    padding-right: 2px;
+    letter-spacing: 3px;
+    font-size: 54px;
 }
 
 #keyboard{
@@ -42,16 +47,19 @@ body {
     background-color:brown;
     width: 64px;
     height: 64px;
+    font-size: 32px;
 }
 
 .special_button{
     background-color: blueviolet;
     width: 64px;
     height: 64px;
+    font-size: 32px;
 }
 
 .operator_button{
     background-color: blue;
     width: 64px;
     height: 64px;
+    font-size: 32px;
 }
