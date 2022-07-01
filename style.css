@@ -41,25 +41,28 @@ body {
     justify-content: center;
     gap:8px;
 }
-
+#zero_button{
+    width: 136px;
+}
 
 .number_button{
-    background-color:brown;
+    background-color:dodgerblue;
     width: 64px;
     height: 64px;
     font-size: 32px;
 }
 
 .special_button{
-    background-color: blueviolet;
+    background-color:royalblue;
     width: 64px;
     height: 64px;
     font-size: 32px;
 }
 
 .operator_button{
-    background-color: blue;
+    background-color:lightskyblue;
     width: 64px;
     height: 64px;
     font-size: 32px;
 }
+
