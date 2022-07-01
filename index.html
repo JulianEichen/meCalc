@@ -11,7 +11,7 @@
 
     <div id="header">
         <h1>
-            YOU CLICK, ME CALC
+            THE CALCULATOR
         </h1>
     </div>
 
@@ -19,47 +19,45 @@
         <div id="display"></div>
 
         <div id="keyboard">
-            <div id="keyboard_left">
-                <div id="buttons_1">
-                    <button class="special_button" id="ac_button">AC</button>
-                    <button class="special_button" id="sgn_button">+/-</button>
-                    <button class="special_button" id="prc_button">%</button>
-                </div>
-                <div id="buttons_2">
-                    <div id="buttons_2_a">
-                        <button class="number_button" value="7">7</button>
-                        <button class="number_button" value="8">8</button>
-                        <button class="number_button" value="9">9</button>
-                    </div>
-
-                    <div id="buttons_2_b">
-                        <button class="number_button" value="4">4</button>
-                        <button class="number_button" value="5">5</button>
-                        <button class="number_button" value="6">6</button>
-                    </div>
-
-                    <div id="buttons_2_c">
-                        <button class="number_button" value="1">1</button>
-                        <button class="number_button" value="2">2</button>
-                        <button class="number_button" value="3">3</button>
-                    </div>
-
-                    <div id="buttons_2_d">
-                        <button class="number_button" value="0">0</button>
-                        <button class="number_button" value=".">.</button>
-                        <button class="number_button">:^)</button>
-                    </div>
-                </div>
+            <div id="row_1" class="key_row">
+                <button class="special_button" id="ac_button">AC</button>
+                <button class="special_button" id="sgn_button">+/-</button>
+                <button class="special_button" id="prc_button">%</button>
+                <button class="operator_button" value="divide">/</button>
             </div>
 
-            <div id="buttons_3">
-                <button class="operator_button" value="divide">/</button>
+            <div id="row_2" class="key_row">
+                <button class="number_button" value="7">7</button>
+                <button class="number_button" value="8">8</button>
+                <button class="number_button" value="9">9</button>
                 <button class="operator_button" value="multiply">*</button>
+            </div>
+
+            <div id="row_3" class="key_row">
+                <button class="number_button" value="4">4</button>
+                <button class="number_button" value="5">5</button>
+                <button class="number_button" value="6">6</button>
                 <button class="operator_button" value="add">+</button>
+            </div>
+
+            <div id="row_4" class="key_row">
+                <button class="number_button" value="1">1</button>
+                <button class="number_button" value="2">2</button>
+                <button class="number_button" value="3">3</button>
                 <button class="operator_button" value="substract">-</button>
+            </div>
+
+            <div id="row_5" class="key_row">
+                <button class="number_button" value="0">0</button>
+                <button class="number_button" value=".">.</button>
+                <button class="number_button">:^)</button>
                 <button class="operator_button" value="equals">=</button>
             </div>
         </div>
+    </div>
+
+
+    </div>
     </div>
 
     <script src="calc.js"></script>
