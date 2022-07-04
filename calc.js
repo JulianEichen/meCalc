@@ -137,7 +137,7 @@ function clickOperator(event) {
     oprtr = event.target.value;
 
     var result = runCalc(calculator.locked_operator).toString();
-  
+    calculator.memory = result;
     show(result); // display result
     calculator.locked_operator = oprtr;
     calculator.prev_click = 'operator';
